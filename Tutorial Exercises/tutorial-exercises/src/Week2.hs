@@ -1,3 +1,5 @@
+module Week2 () where
+
 {-For these exercises it is recommended that you use Stack to run GHCI. Once you have downloaded and saved this file you should open a terminal and navigate to the correct folder. Once you are in the correct folder run ghci using Stack, you will then be able to load this file using :l Ex1.hs . Define the required functions in the file using the already provided names and types! Do not change the naming or typing of functions. When defining a function f replace the line f = undefined with your definition. -}
 
 -- 1) Define the following:

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3a744d3e-8608-4d4f-ad0f-0a79d05ffe61" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/bin/tutorial-exercises-exe.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/doc/all/doc-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/doc/all/haddock-bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/doc/all/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/doc/all/linuwial.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/doc/all/quick-jump.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/doc/all/synopsis.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/doc/doc-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/doc/haddock-bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/doc/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/doc/linuwial.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/doc/quick-jump.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/doc/synopsis.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/doc/tutorial-exercises-0.1.0.0/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/doc/tutorial-exercises-0.1.0.0/Lib.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/doc/tutorial-exercises-0.1.0.0/doc-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/doc/tutorial-exercises-0.1.0.0/doc-index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/doc/tutorial-exercises-0.1.0.0/haddock-bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/doc/tutorial-exercises-0.1.0.0/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/doc/tutorial-exercises-0.1.0.0/linuwial.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/doc/tutorial-exercises-0.1.0.0/meta.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/doc/tutorial-exercises-0.1.0.0/quick-jump.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/doc/tutorial-exercises-0.1.0.0/quick-jump.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/doc/tutorial-exercises-0.1.0.0/synopsis.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/doc/tutorial-exercises-0.1.0.0/tutorial-exercises.haddock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/doc/tutorial-exercises-0.1.0.0/tutorial-exercises.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/lib/x86_64-windows-ghc-9.2.5/tutorial-exercises-0.1.0.0-BiUWZbVowJ69LhtVIH1u0k/HStutorial-exercises-0.1.0.0-BiUWZbVowJ69LhtVIH1u0k.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/lib/x86_64-windows-ghc-9.2.5/tutorial-exercises-0.1.0.0-BiUWZbVowJ69LhtVIH1u0k/Lib.hi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/lib/x86_64-windows-ghc-9.2.5/tutorial-exercises-0.1.0.0-BiUWZbVowJ69LhtVIH1u0k/Paths_tutorial_exercises.hi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/lib/x86_64-windows-ghc-9.2.5/tutorial-exercises-0.1.0.0-BiUWZbVowJ69LhtVIH1u0k/libHStutorial-exercises-0.1.0.0-BiUWZbVowJ69LhtVIH1u0k.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/pkgdb/package.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/pkgdb/package.cache.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/pkgdb/tutorial-exercises-0.1.0.0-BiUWZbVowJ69LhtVIH1u0k.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.stack-work/stack.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.stack-work/stack.sqlite3.pantry-write-lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week3_Ex.hs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stack.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stack.yaml.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial-exercises/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial-exercises/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial-exercises/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial-exercises/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial-exercises/Setup.hs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial-exercises/app/Main.hs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial-exercises/package.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial-exercises/src/Lib.hs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial-exercises/stack.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial-exercises/test/Spec.hs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial-exercises/tutorial-exercises.cabal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2.hs" beforeDir="false" afterPath="$PROJECT_DIR$/Week2.hs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Kb5ZMiWHCkKxkPhXwNiJvkT2xP" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/conno/Documents/Uni/CS260/Tutorial Exercises&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Haskell.Configurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\conno\Documents\Uni\CS260\Tutorial Exercises" />
+      <recent name="C:\Users\conno\Documents\Uni\CS260\Tutorial Exercises\tutorial-exercises\src" />
+      <recent name="C:\Users\conno\Documents\Uni\CS260\Tutorial Exercises\tutorial-exercises\app" />
+      <recent name="C:\Users\conno\Documents\Uni\CS260\Tutorial Exercises\Tutorial-Exercises\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Tutorial Exercises" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Tutorial Exercises" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3a744d3e-8608-4d4f-ad0f-0a79d05ffe61" name="Changes" comment="" />
+      <created>1674230496753</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674230496753</updated>
+      <workItem from="1674230497722" duration="978000" />
+      <workItem from="1674231502262" duration="518000" />
+      <workItem from="1674232038081" duration="156000" />
+      <workItem from="1674232223347" duration="618000" />
+      <workItem from="1674232895178" duration="1000" />
+      <workItem from="1674232906630" duration="2000" />
+      <workItem from="1674232915215" duration="6000" />
+      <workItem from="1674233009375" duration="459000" />
+      <workItem from="1674233488184" duration="101000" />
+      <workItem from="1674233680352" duration="67000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="ghc-prim-0.8.0">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../../../../../ghcup/cache/lib/tutorial-exercises/ghc-prim-0.8.0" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../../../../../../ghcup/cache/lib/tutorial-exercises/ghc-prim-0.8.0" />
+    </SOURCES>
+  </library>
+</component>
