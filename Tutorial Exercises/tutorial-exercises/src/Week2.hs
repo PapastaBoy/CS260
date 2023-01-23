@@ -22,7 +22,9 @@ evenFactorial x | x < 0 = error "Factorial negative given"
 evenFactorial x | x < 2 = 1
                 | x `mod` 2 == 1 = evenFactorial (x - 1)
                 | otherwise = x * evenFactorial (x - 2)
-
+                
+evenFactorialFold ::Int -> Int
+evenFactorialFold n = foldr (*) 1 [2,4..n]
 
 {-3)
   a)The Collatz function is defined as follows:
@@ -60,7 +62,13 @@ Note that this version will recurse infinitely on a negative number. Change this
 factorial :: Int -> Int
 factorial 0 = 1
 factorial x | (x < 0) = error "Negative"
-            | otherwise = x * factorial (x - 1)
+            | otherwise = x * factorial (x - 1)    
+            
+fibs :: [Int] 
+fibs = 1 : 1 : zipWith (+) fibs (tail fibs)
+
+fibonacci :: Int -> Int
+fibonacci n = fibs !! n
 
 --5) Defined the combinatorial function for numbers n and m given by n!/(m!*(n-m)!), this should return an error if n < m
 
@@ -72,6 +80,7 @@ comb n m = factorial n `div` (factorial m) * factorial (n - m)
 
 leapYear :: Int -> String
 leapYear n | n < 0 = error "year cannot be negative"
+           | n `mod` 100 == 0 && n `mod` 400 /= 0 = "Not Leap Year"
            | n `mod` 4 == 0 = "Leap Year"
            | otherwise = "Not Leap Year"
 
