@@ -29,6 +29,7 @@ library
       Week2
       Week3_Ex
       Week5_Ex
+      Week6_Ex
   other-modules:
       Paths_tutorial_exercises
   hs-source-dirs:

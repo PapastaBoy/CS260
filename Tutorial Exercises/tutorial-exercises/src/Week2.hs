@@ -23,8 +23,8 @@ evenFactorial x | x < 2 = 1
                 | x `mod` 2 == 1 = evenFactorial (x - 1)
                 | otherwise = x * evenFactorial (x - 2)
                 
-evenFactorialFold ::Int -> Int
-evenFactorialFold n = foldr (*) 1 [2,4..n]
+evenFactorialFold :: Int -> Int
+evenFactorialFold n = product [2,4..n]
 
 {-3)
   a)The Collatz function is defined as follows:
@@ -59,9 +59,9 @@ Note that this version will recurse infinitely on a negative number. Change this
 
 -}
 
-factorial :: Int -> Int
+factorial :: Integer -> Integer
 factorial 0 = 1
-factorial x | (x < 0) = error "Negative"
+factorial x | x < 0 = x * factorial (x + 1) 
             | otherwise = x * factorial (x - 1)    
             
 fibs :: [Int] 
@@ -72,9 +72,9 @@ fibonacci n = fibs !! n
 
 --5) Defined the combinatorial function for numbers n and m given by n!/(m!*(n-m)!), this should return an error if n < m
 
-comb :: Int -> Int -> Int
+comb :: Integer -> Integer -> Integer
 comb n m | n < m = error "n < m"
-comb n m = factorial n `div` (factorial m) * factorial (n - m)
+comb n m = factorial n `div` factorial m * factorial (n - m)
 
 --6) Define leapYear which returns a String telling the user whether a supplied year is a leap yer.
 
@@ -86,17 +86,8 @@ leapYear n | n < 0 = error "year cannot be negative"
 
 --7) Define the function prime which returns True if a given number n is prime. Remember that a number is prime if it is not divisible by any number other than 1 and itself. It may help to define a helper function
 
-hasZero :: [Int] -> Bool
-hasZero [] = False
-hasZero (x:xs) | x == 0 = True
-               | otherwise = hasZero xs
-
-prints :: [Int] -> [Int]
-prints xs = xs
-
-prime :: Int -> Bool
-prime n | n < 3 = False
-prime n | hasZero $ map (mod n) [2..(n-1)] = False
-        | otherwise = True
+        
+prime::Integer -> Bool
+prime n = [x | x <- [1..n], mod n x == 0] == [1, n]
 
 testPrime = map prime [1..1000]
