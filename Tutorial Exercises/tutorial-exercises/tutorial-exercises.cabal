@@ -25,6 +25,7 @@ source-repository head
 
 library
   exposed-modules:
+      Assignment1
       Lib
       Week2
       Week3_Ex

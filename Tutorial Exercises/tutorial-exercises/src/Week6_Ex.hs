@@ -79,7 +79,6 @@ factorial (Val n) = Val (apply (Mult (Val n) (factorial (Val (apply (Sub (Val n)
 --3c) The Calc type can be seen as a functor, given an instantiation of the Functor class for Calc
 
 instance Functor Calc where
-  fmap :: (a -> b) -> Calc a -> Calc b
   fmap f (Val a) = Val (f a)
   fmap f (Add a b) = Add (fmap f a) (fmap f b)
   fmap f (Mult a b) = Mult (fmap f a) (fmap f b)  
