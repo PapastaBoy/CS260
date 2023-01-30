@@ -16,16 +16,21 @@ buildSquare n = [x | x <- [1..n], x ^ 2 < n]
 longerList::[a] -> [a] -> Bool
 longerList a b = length a > length b
 
-{-3)a) Write a function insert that takes as its first argument a function, as second argument an element of a and as third argument a list of type a and inserts x just before the first element y of xs such that f y > f x (if such a y does not exist, x should be inserted at the end of the list).(2 marks)-}
+{-3)a) Write a function insert that takes as its first argument a function, as second argument an element of a and as
+third argument a list of type a and inserts x just before the first element y of xs such that f y > f x (if such a y
+does not exist, x should be inserted at the end of the list).(2 marks)-}
 
 insert :: Ord b => (a -> b) -> a -> [a] -> [a]
-insert = undefined
+insert f x [y] | f y > f x = [x,y]
+               | otherwise = [y,x]
+insert f x (y:xs) | f y > f x = (x:y:xs)
+                  | otherwise = y : (insert f x xs)
 
-{-b) Use insert to define a function inssort that sorts a given list such that the sorted list satisfies the following condition: x occurs before y implies
-f x <= f y- (3 marks)-} 
+{-b) Use insert to define a function inssort that sorts a given list such that the sorted list satisfies the following
+condition: x occurs before y implies f x <= f y- (3 marks)-}
 
 inssort :: Ord b => (a -> b) -> [a] -> [a]
-inssort = undefined
+inssort f [] = []
 
 ----------------------------------
 

@@ -5,61 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a744d3e-8608-4d4f-ad0f-0a79d05ffe61" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/bin/tutorial-exercises-exe.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/doc/all/doc-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/doc/all/haddock-bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/doc/all/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/doc/all/linuwial.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/doc/all/quick-jump.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/doc/all/synopsis.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/doc/doc-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/doc/haddock-bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/doc/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/doc/linuwial.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/doc/quick-jump.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/doc/synopsis.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/doc/tutorial-exercises-0.1.0.0/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/doc/tutorial-exercises-0.1.0.0/Lib.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/doc/tutorial-exercises-0.1.0.0/doc-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/doc/tutorial-exercises-0.1.0.0/doc-index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/doc/tutorial-exercises-0.1.0.0/haddock-bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/doc/tutorial-exercises-0.1.0.0/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/doc/tutorial-exercises-0.1.0.0/linuwial.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/doc/tutorial-exercises-0.1.0.0/meta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/doc/tutorial-exercises-0.1.0.0/quick-jump.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/doc/tutorial-exercises-0.1.0.0/quick-jump.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/doc/tutorial-exercises-0.1.0.0/synopsis.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/doc/tutorial-exercises-0.1.0.0/tutorial-exercises.haddock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/doc/tutorial-exercises-0.1.0.0/tutorial-exercises.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/lib/x86_64-windows-ghc-9.2.5/tutorial-exercises-0.1.0.0-BiUWZbVowJ69LhtVIH1u0k/HStutorial-exercises-0.1.0.0-BiUWZbVowJ69LhtVIH1u0k.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/lib/x86_64-windows-ghc-9.2.5/tutorial-exercises-0.1.0.0-BiUWZbVowJ69LhtVIH1u0k/Lib.hi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/lib/x86_64-windows-ghc-9.2.5/tutorial-exercises-0.1.0.0-BiUWZbVowJ69LhtVIH1u0k/Paths_tutorial_exercises.hi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/lib/x86_64-windows-ghc-9.2.5/tutorial-exercises-0.1.0.0-BiUWZbVowJ69LhtVIH1u0k/libHStutorial-exercises-0.1.0.0-BiUWZbVowJ69LhtVIH1u0k.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/pkgdb/package.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/pkgdb/package.cache.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.stack-work/install/5cc14ac8/pkgdb/tutorial-exercises-0.1.0.0-BiUWZbVowJ69LhtVIH1u0k.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.stack-work/stack.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.stack-work/stack.sqlite3.pantry-write-lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week3_Ex.hs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack.yaml.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial-exercises/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial-exercises/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial-exercises/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial-exercises/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial-exercises/Setup.hs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial-exercises/app/Main.hs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial-exercises/package.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial-exercises/src/Lib.hs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial-exercises/stack.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial-exercises/test/Spec.hs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial-exercises/tutorial-exercises.cabal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2.hs" beforeDir="false" afterPath="$PROJECT_DIR$/Week2.hs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.stack-work/stack.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/.stack-work/stack.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial-exercises/src/Assignment1.hs" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-exercises/src/Assignment1.hs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="aefd6b22-f0e3-4a56-9496-04d0420bbbc6" />
+        <option name="url" value="https://github.com/PapastaBoy/CS260.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -83,7 +52,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/conno/Documents/Uni/CS260/Tutorial Exercises&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/conno/Documents/uni/CS207/CS260/Tutorial Exercises&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -104,21 +73,6 @@
       <recent name="C:\Users\conno\Documents\Uni\CS260\Tutorial Exercises\Tutorial-Exercises\src" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="Tutorial Exercises" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="Tutorial Exercises" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -137,6 +91,10 @@
       <workItem from="1674233009375" duration="459000" />
       <workItem from="1674233488184" duration="101000" />
       <workItem from="1674233680352" duration="67000" />
+      <workItem from="1675054651698" duration="114000" />
+      <workItem from="1675054780720" duration="352000" />
+      <workItem from="1675055179197" duration="2402000" />
+      <workItem from="1675087334828" duration="682000" />
     </task>
     <servers />
   </component>
