@@ -23,50 +23,62 @@ does not exist, x should be inserted at the end of the list).(2 marks)-}
 insert :: Ord b => (a -> b) -> a -> [a] -> [a]
 insert f x [y] | f y > f x = [x,y]
                | otherwise = [y,x]
-insert f x (y:xs) | f y > f x = (x:y:xs)
-                  | otherwise = y : (insert f x xs)
+insert f x (y:xs) | f y > f x = x:y:xs
+                  | otherwise = y : insert f x xs
 
 {-b) Use insert to define a function inssort that sorts a given list such that the sorted list satisfies the following
 condition: x occurs before y implies f x <= f y- (3 marks)-}
 
 inssort :: Ord b => (a -> b) -> [a] -> [a]
-inssort f [] = []
+inssort _ [] = []
+inssort f (x:xs) = insert f x (inssort f xs)
 
 ----------------------------------
 
 data Bit = O | I
  deriving (Show,Eq) 
 
-{-Here the Bit type has been declared as either an I value or a O value. We will use this type in some of the following questions, you can view it as being extremely similar to the Bool type. Treat I as the bit value 1 and O as 0.  -}
+{-Here the Bit type has been declared as either an I value or a O value. We will use this type in some of the following questions, you can view it as being extremely similar to the Bool type. Treat I as the
+ bit value 1 and O as 0.  -}
 
 {-4)a) Define your own function myAnd which applies logical and to two given Bit values. e.g myAnd I I = I, myAnd O I = O. (1 mark)-}
 
 myAnd::Bit ->  Bit -> Bit
-myAnd = undefined
+myAnd I I = I
+myAnd _ _ = O
 
-{-b) We can use lists of bits to represent binary numbers. Using myAnd define bitwiseAnd which takes two lists of Bits and applies myAnd to the corresponding elements of each list. Your bitewiseAnd should manage lists of different lengths by discarding excess values.  (2 marks) -}
+{-b) We can use lists of bits to represent binary numbers. Using myAnd define bitwiseAnd which takes two lists of Bits and applies myAnd to the corresponding elements of each list. Your bitewiseAnd should
+manage lists of different lengths by discarding excess values.  (2 marks) -}
 
 bitwiseAnd::[Bit] -> [Bit] -> [Bit]
-bitwiseAnd = undefined
+bitwiseAnd = zipWith myAnd
 
 
 
-{-c) Define bin2Int which converts a binary number, represented as a list of bits, to an integer. You must consider the place value of each Bit with the first element being the most significant and the last being the least significant. (3 marks)
+{-c) Define bit2Int which converts a binary number, represented as a list of bits, to an integer. You must consider the place value of each Bit with the first element being the most significant and the last
+ being the least significant. (3 marks)
     bit2Int [O,I] = 1
     bit2Int [I,O,I] = 5 
     bit2Int [I,I,I] = 7 
     bit2Int [I,O,O,O] = 8-}
 
+convert::Bit -> Int
+convert O = 0
+convert I = 1
 
-bit2Int:: [Bit] -> Int 
-bit2Int = undefined
+
+bit2Int:: [Bit] -> Int
+bit2Int xs = foldr (\x y -> convert x + y * 2) 0 (reverse xs)
 
 -------------------------------------
 
 {-5) Define the remNth function which removes every nth value from a given list. e.g remNth 2 "asasasasas" = "aaaaa" and remNth 1 [1,2,3,4,5] = []. For a value of 0 your function should return the original list. (2 marks)-}
 
+
 remNth::Int -> [a] -> [a]
-remNth = undefined 
+remNth 0 xs = xs
+remNth n xs = map fst (filter (\(_,x) -> x `mod` n /= 0) (zip xs [1..(length xs)]))
+
 
 {-6) Consider the following algorithm for reversing the digits of an integer.
 
