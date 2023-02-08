@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a744d3e-8608-4d4f-ad0f-0a79d05ffe61" name="Changes" comment="">
+    <list default="true" id="3a744d3e-8608-4d4f-ad0f-0a79d05ffe61" name="Changes" comment="Added Week 7 Tutorial Exercises">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/stack.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/.stack-work/stack.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tutorial-exercises/src/Assignment1.hs" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-exercises/src/Assignment1.hs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial-exercises/src/Week3_Ex.hs" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-exercises/src/Week3_Ex.hs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -93,8 +93,17 @@ remNth n xs = map fst (filter (\(_,x) -> x `mod` n /= 0) (zip xs [1..(length xs)
  }
  implement a recursive version of this algorithm. Note that ending zeros will be dropped (1230 -> 321), this is fine. (3 marks)-}
 
-revDig::Int-> Int
-revDig = undefined 
+revDig::Int->Int
+revDig 0 = 0
+revDig x = reverseHelper x 0
+
+reverseHelper::Int->Int->Int
+reverseHelper 0 rev = rev
+reverseHelper num rev = reverseHelper x y
+   where
+      k = num `mod` 10
+      y = rev * 10 + k
+      x = num`div` 10
 
 
 testDivHel x = revDig x == (read.reverse.show) x --call this to test your revDig, it should always return true if your definition is correct. 

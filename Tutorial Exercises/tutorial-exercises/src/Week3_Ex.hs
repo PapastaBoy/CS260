@@ -19,6 +19,7 @@ cycleInc xs = xs ++ cycleInc (addOne xs)
 pythTriples :: Int -> [(Int,Int,Int)]
 pythTriples n = [(a,b,c) | c <- [2..n], b <- [2..n], a <- [2..n], a*a + b*b == c*c]
 
+
 --4) Define a function threeStrikes which returns "You're Out!" if it finds three occurences of a given value in a list returning "all good" otherwise. Hint. you may want to define a helper function, also consider whether or not your function would work with infinite lists.
 
 counter :: Char -> String -> Int
